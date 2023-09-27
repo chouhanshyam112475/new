@@ -1,0 +1,9 @@
+import time
+t = int(time.strftime("%H"))
+print(t)
+if (t>=0 and t<=10):
+ print("Good Morning")
+elif (t<=11 and t>=17):
+ print("Good Afternoon")
+else:
+ print("Good Evening")
